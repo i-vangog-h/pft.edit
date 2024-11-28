@@ -52,3 +52,19 @@ footer {
 #footer p {
     margin: 0 0 0 0;
 }
+
+@media screen and (max-width: 1045px) {
+    #content {
+      display: flex; 
+      flex-direction: column;
+      padding-top: 2em;
+    }
+
+    #content #player-container {
+        width: 30em;
+        height: 20em;
+        border: 2px solid black;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+  }
